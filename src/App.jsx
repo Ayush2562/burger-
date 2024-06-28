@@ -9,7 +9,7 @@ function App() {
   const [veggieCount, setVeggieCount] = useState(0);
 
   const chickenCost = 10.50;
-  const veggieCost = 8.00;
+  const veggieCost = 8.50;
 
   const calculateTotalCost = () => {
     return (chickenCount * chickenCost) + (veggieCount * veggieCost);
