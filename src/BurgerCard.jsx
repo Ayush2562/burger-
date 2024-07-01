@@ -1,4 +1,3 @@
-// src/BurgerCard.jsx
 import React from 'react';
 
 function BurgerCard({ title, cost, count, setCount, image }) {
