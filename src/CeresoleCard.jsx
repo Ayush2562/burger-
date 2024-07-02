@@ -31,7 +31,7 @@ function CeresoleCard() {
           src={ceresoleImages[currentImageIndex]}
           alt="Ceresole Burger"
           className="mt-2 mb-4 rounded-lg"
-          style={{ height: '600px', width: '1000px', maxWidth: '100%' }}
+          style={{ height: '600px', width: '1500px' }}
         />
         <div className="absolute inset-0 flex justify-between items-center">
           <button
