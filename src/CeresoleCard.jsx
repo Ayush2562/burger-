@@ -31,17 +31,19 @@ function CeresoleCard() {
           src={ceresoleImages[currentImageIndex]}
           alt="Ceresole Burger"
           className="mt-2 mb-4 rounded-lg"
-          style={{ height: '600px', width: 'auto', maxWidth: '100%' }}
+          style={{ height: '600px', width: '1000px', maxWidth: '100%' }}
         />
-        <div className="justify top-1/2 transform -translate-y-1/2 left-0 right-0 flex justify-between">
+        <div className="absolute inset-0 flex justify-between items-center">
           <button
-            className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-2 rounded-full focus:outline-none"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-3 rounded-full focus:outline-none"
+            style={{ position: 'justify', left: '10px' }}
             onClick={decrement}
           >
             &lt;
           </button>
           <button
-            className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-2 rounded-full focus:outline-none"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-3 rounded-full focus:outline-none"
+            style={{ position: 'absolute', right: '10px' }}
             onClick={increment}
           >
             &gt;
