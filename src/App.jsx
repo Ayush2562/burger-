@@ -4,8 +4,8 @@ import HeroBanner from './HeroBanner';
 import BurgerCard from './BurgerCard';
 import CeresoleCard from './CeresoleCard';
 import Footer from './Footer'; 
-import chickenImg from '/src/images/chicken1.jpg';
-import veggieImg from '/src/images/veggie1.jpg';
+import chickenImg from '/src/images/chicken new.jpg';
+import veggieImg from '/src/images/veggie new.jpg';
 
 function App() {
   const [chickenCount, setChickenCount] = useState(0);

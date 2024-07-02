@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ceresoleImg1 from '/src/images/new2.jpg';
-import ceresoleImg2 from '/src/images/new1.jpg';
+import ceresoleImg2 from '/src/images/new7.jpg';
 import ceresoleImg3 from '/src/images/new3.jpg';
 
 function CeresoleCard() {
