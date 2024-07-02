@@ -33,7 +33,7 @@ function CeresoleCard() {
           className="mt-2 mb-4 rounded-lg"
           style={{ height: '600px', width: 'auto', maxWidth: '100%' }}
         />
-        <div className="absolute top-1/2 transform -translate-y-1/2 left-0 right-0 flex justify-between">
+        <div className="justify top-1/2 transform -translate-y-1/2 left-0 right-0 flex justify-between">
           <button
             className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-2 rounded-full focus:outline-none"
             onClick={decrement}
