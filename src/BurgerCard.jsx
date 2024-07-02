@@ -14,7 +14,7 @@ function BurgerCard({ title, cost, count, setCount, image }) {
   return (
     <div className="bg-white p-4 rounded-lg shadow-md">
       <h2 className="text-xl font-semibold">{title}</h2>
-      <img src={image} alt={title} className="mt-2 mb-4 rounded-lg" style={{ height: '400px', width: '600px', maxWidth: '100%'  }} />
+      <img src={image} alt={title} className="mt-2 mb-4 rounded-1g" style={{ height: '400px', width: '600px', maxWidth: '100%'  }} />
       <p className="text-gray-600 mb-4">Cost per Burger: ${cost.toFixed(2)}</p>
       <div className="flex items-center justify-between">
         <button

@@ -30,7 +30,7 @@ function App() {
       <Navbar />
       <div className="container mx-auto p-4 flex-grow">
         <CeresoleCard />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
           <BurgerCard
             title="Chicken Burger"
             cost={chickenCost}
@@ -55,13 +55,11 @@ function App() {
             Reset Counts
           </button>
         </div>
-      </div>
-      <div className="justify">
         <div className="float-right bottom-4 right-4 md:bottom-8 md:right-8 bg-white p-4 max-w-sm rounded-lg shadow-md w-80 m-4">
           <div className="order-details">
             <h2 className="text-xl font-semibold mb-4 text-center">Your Order Details</h2>
             <ul className="divide-y divide-gray-200">
-              <li className="flex justify-between py-2">
+              <li className="flex justify-between py-3">
                 <span>Chicken Burger x {chickenCount}</span>
                 <span>${(chickenCount * chickenCost).toFixed(2)}</span>
               </li>
@@ -77,7 +75,6 @@ function App() {
           </div>
         </div>
       </div>
-
       {/* Footer */}
       <Footer />
     </div>
